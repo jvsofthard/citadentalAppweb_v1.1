@@ -1,0 +1,230 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 65em;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main{
+    position: relative;
+}
+
+/* Estilos para el título */
+.titulo {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para el cuerpo del formulario */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilos para el título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* -- FORMULARIO -- */
+
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los inputs */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home {
+    background-color: #0785f1;
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.home a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el contenedor de las etiquetas e inputs */
+form div {
+    margin-bottom: 10px;
+}
+
+
+/* Estilo para el comentario de los formulario */
+#comentario {
+    width: 100%; /* Set the width to 100% */
+    padding: 10px; /* Add some padding around the text inside the textarea */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    border: 2px solid #ccc; /* Add a 2px solid border with color #ccc */
+    border-radius: 5px; /* Add a border radius of 5px for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+
+
+/* Estilos para el enlace de regreso al inicio */
+a {
+    /*display: block;*/
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+    list-style:none;
+}
+
+
+
+
+/* ----------------------------------- */
+/* -------- TABLAS RESULTADO --------- */
+table {
+            position: relative;
+            top: 10;
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            font-size: 14px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            position: relative;
+            width: 15px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td {
+            background-color: #fff;
+        }
+
+        tr{
+            width: 50%;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        .search-form {
+            margin-bottom: 20px;
+        }
+
+        .search-form input[type="text"] {
+            width: 70%;
+        }
+
+
+        .search-form button[type="submit"] {
+            width: 25%;
+            margin-left: 5px;
+        }
+
+        /* Estilos para el mensaje emergente */
+        .mensaje-emergente {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 123, 255, 0.9);
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            display: none;
+
+        }
+        .fa-pen-to-square{
+            color: #007bff;
+            font-size: 22px;
+            
+        }
+
+        .fa-trash{
+            color:#f22;
+            font-size: 22px;
+
+        }
